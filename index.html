@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шовтун</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <div class="logo__block">
+                    <img src="Logo.svg" alt="" class="logo">
+                    <span>products</span>
+                </div>
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a href="" class="menu__link menu__link__1">new arrivals</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="" class="menu__link menu__link__2">sale</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="" class="menu__link menu__link__3">source</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="" class="menu__link menu__link__4">shop</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="hero__section">
+                <div class="container">
+                    <div class="hero-product__block">
+                        <div class="product-banner">
+                            <p class="product-subtitle">HUMAN RACE HMD</p>
+                            <h1 class="product-title">SUPPLY</h1>
+                            <div class="product-image-wrapper"><img src="Кросівок.png" alt="Shoe" class="product-image"></div class="product-image-wrapper">
+                            
+                        </div>
+                        <div class="product-info">
+                            <p>VIEW PRODUCT</p>
+                            <p>PRODUCT NAME</p>
+                            <p>£999.99</p>
+                        </div>
+                    </div>
+                    <div href="" class="button">
+                        <button class="codepen-button" id="buyNowButton"><span>BUY NOW</span></button>
+                    </div>
+                    <div class="modal" id="orderModal">
+                        <div class="modal-content">
+                            <span class="close-button" id="closeModal">&times;</span> <!-- Кнопка закрити -->
+                            <h2>Order Form</h2>
+                            <div class="modal__grid">
+                                <div class="modal__item">
+                                    <img src="Кросівок2.png" alt="" class="modal__img">
+                                </div>
+                                <div class="modal__item">
+                                    <div class="modal__item__block">
+                                        <p class="modal__product__name">Human Race NMD Pharrell Williams</p>
+                                        <p class="modal__product__price">£999.99</p>
+                                        <p class="modal__product__description">The first release from the incredibly popular series of adidas NMD's by Pharrell, here we have the famous yellow colorway. The modified construction of the NMD by Pharrell features a vibrant yellow mesh upper with black accents, including the 'HUMAN RACE' text embroidered down each foot.</p>
+                                    </div>
+                                    <a href="" class="modal__btn">add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="shop__section">
+                <div class="shop__grid">
+                    <div class="shop__item shop__item__1">
+                        <img src="krociwok3.png" alt="" class="shop__img">
+                        <div class="shop__text__block">
+                            <div>
+                                <p class="shop__subtitle">shop now</p>
+                                <h2 class="title">new releases</h2>
+                            </div>
+                            <a href="" class="shop__btn">view all</a>
+                        </div>
+                    </div>
+                    <div class="shop__item shop__item__2">
+                        <div class="shop__text__block">
+                            <div>
+                                <p class="shop__subtitle">shop now</p>
+                                <h2 class="title">price droppers</h2>
+                            </div>
+                            <a href="" class="shop__btn">view all</a>
+                        </div>
+                        <img src="pngwing.com (1).png" alt="" class="shop__img">
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main class="main">
+            <section class="product-section">
+                <div class="container">
+                    <p class="section__subtitle">collections</p>
+                    <h2 class="section__title">best sellers</h2>
+                    <div class="product__grid">
+                        <div class="product-card product-card__1">
+                            <img class="product__img" src="pngwing.com (8).png" alt="Product 1">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                        <div class="product-card  product-card__2">
+                            <img class="product__img" src="pngwing.com (9).png" alt="Product 2">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                        <div class="product-card  product-card__3">
+                            <img class="product__img" src="pngwing.com (10).png"Product 3">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                        <div class="product-card  product-card__4">
+                            <img class="product__img" src="pngwing.com (11).png" alt="Product 4">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                    </div>
+                    <button class="shop-now">SHOP NOW</button>
+                </div>
+            </section>
+            <section class="featured-section">
+                <div class="container">
+                    <p class="section__subtitle">featured</p>
+                    <h2 class="section__title">search by brand</h2>
+                    <div class="product__grid"> 
+                        <div class="featured__block" id="myFeaturedBlock1">nike</div>
+                        <div class="featured__block" id="myFeaturedBlock2">adidas</div>
+                        <div class="featured__block" id="myFeaturedBlock3">yeezy</div>
+                        <div class="featured__block" id="myFeaturedBlock4">jordan</div>
+                        <div class="product-card product-card__1 productCardHover">
+                            <img class="product__img" src="pngwing.com (2).png" alt="Product 1">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                        <div class="product-card  product-card__2 productCardHover">
+                            <img class="product__img" src="pngwing.com (3).png" alt="Product 2">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                        <div class="product-card  product-card__3 productCardHover">
+                            <img class="product__img" src="pngwing.com (4).png" alt="Product 3">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                        <div class="product-card  product-card__4 productCardHover">
+                            <img class="product__img" src="pngwing.com (5).png" alt="Product 4">
+                            <p class="product-name">PRODUCT NAME</p>
+                            <p class="product-price">£999.99</p>
+                        </div>
+                    </div> 
+                    <button class="shop-now">SHOP NOW</button>
+                </div>
+            </section>
+            <section class="source-section">
+                    <p class="section__subtitle">SOURCE IT</p>
+                    <h2 class="section__title">LET US FIND IT FOR YOU</h2>
+                    <div class="source__grid"> 
+                        <div class="source__item source__item__1">
+                            <img src="pngwing.com (6).png" alt="" class="source__img">
+                        </div>
+                        <div class="source__item source__item__2">
+                            <div class="source__text__block">
+                                <p class="section__subtitle">NOT AVAILABLE ON THE WEBSITE?</p>
+                                <h2 class="source__title">WE’LL SOURCE IT FOR YOU</h2>
+                                
+                            </div>
+                            <button class="shop-now">SOURCE IT NOW</button>
+                        </div>
+                    </div>
+            </section>
+            <section class="signup__section">
+                <div class="source__grid"> 
+                    <div class="source__item source__item__1">
+                        <div class="source__text__block">
+                            <p class="section__subtitle">SIGN UP</p>
+                            <h2 class="source__title">FOR THE LATEST NEWS,<br> DEALS AND OFFERS?</h2>
+                        </div>
+                        <div class="input-group">
+                            <input required="" type="text" name="text" autocomplete="off" class="input">
+                            <label class="user-label">Email</label>
+                            <a href="" class="shop-now">subscribe</a>
+                        </div>
+                    </div>
+                    <div class="source__item source__item__2">
+                        <img src="pngwing.com (7).png" alt="" class="signup__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <img src="https://images.unsplash.com/photo-1723718283396-01bc394cdf5d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="footer__img">
+                    <ul class="menu">
+                        <li class="menu__list">
+                            <a href="" class="menu__link">HOME</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">ABOUT</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">SHOP</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">TERMS</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">RETURNS</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">SHIPPING</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">SOURCE</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="footer__menu__link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="menuLink.js"></script>
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+    
+</body>
+</html>
